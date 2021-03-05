@@ -14,26 +14,49 @@
     top: -58px;
     z-index: -1;
 }
-main{
-    margin-left: auto;
-    margin-right: auto;
-    width: 68%;
-    margin-top: 2.5%;
+#conteudo{
+    margin-top: 2%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 ul{
     list-style: none;
+    font-size: 0.9em;
 }
 .artHead{
     color: white;
-    padding: 17px;
-    width: 325px;
-    text-align: center;
+    padding: 18px;
+    width: 335px;
     font-weight: normal;
-    background-color:rgb(130, 155, 165);
-}
-.direita{
-    display: flexbox;
+    background-color:rgb(142, 157, 163);
 }
 article{
-    width: 21em;
+    width: max-content;
+    text-align: center;
+    border: 1px solid rgb(142, 157, 163);
+}
+.valor{
+    font-size: 1.6em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    padding: 3% 4.2% 3% 4.2%;
+    font-size: 0.85em;
+    background-color: green;
+}
+footer{
+    margin: 8% 0 5% 0;
+}
+.blocos{
+    float: left;
+    position: relative;
+}
+#bloco2{
+    margin-left: 25px;
 }
