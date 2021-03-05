@@ -1,0 +1,25 @@
+#texto{
+    color: green;
+    text-decoration: overline;
+    text-align: justify;
+    text-transform: lowercase;
+    text-indent: 3em;
+}
+/*Questão 2*/
+#texto2{
+    text-indent: 0.6em;
+    line-height: 4px;
+    letter-spacing: 0.4px;
+    word-spacing: 0.2px;
+}
+#maiusculas{
+    text-transform: uppercase;
+}
+/*Questão 3*/
+#texto3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: right;
+    font-size: 26px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Aristóteles Daniel">
+    </head>
+    <body>
+        <h1>Preencha todos os espaços para completar o cadastro</h1>
+        <form style="width: 38%;" method="post" action="#">
+            <fieldset>
+                <legend>Login</legend>
+                <label style="margin-left: 3px;">Nome:</label> 
+                <input type="text" size="25" maxlength="20" name="nome">
+                <br><br>
+                <label style="margin-left: 3px;">Senha:</label> 
+                <input type="text" size="25" maxlength="20" name="senha">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Sexo</legend>
+                <label style="margin-left: 3px;">Feminino</label> 
+                <input type="radio" name="sexo">
+                <label>Masculino</label> 
+                <input type="radio" name="sexo">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Como você conheceu este site?</legend>
+                <select style="margin-left: 3px;" name="conhecer">
+                    <option value="recomendaçao">Recomendação</option>
+                    <option value="google">Google</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="Twitter">Twitter</option>
+                    <option value="youtube">Youtube</option>
+                </select>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Termos de uso</legend>
+                <input type="checkbox" name="termos de uso"> Li e concordo com os <a href="Termos.pdf">Termos de Uso</a>
+            </fieldset>
+            <br><br>
+            <input type="image" value="Cadastrar" src="Imagens/registrar.png" height="50px" style="margin-left: 33%;">
+        </form>
+    </body>
+</html>

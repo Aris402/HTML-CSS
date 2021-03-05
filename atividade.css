@@ -1,0 +1,45 @@
+*{
+    font-family: arial;
+}
+#cabecalho{
+    font-size: 20px;
+}
+table{
+    border-style: double;
+    width: 325px;
+    background-color: #f9f9f9;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sessao{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sessao2{
+    margin-left: 35.5%;
+}
+table td, tr, th{
+    border: none;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+.espaco{
+    padding-right: 120px;
+}
+.fundoazul{
+    background-color:cyan;
+}
+#seila{
+    position: absolute;
+    left: 35%;
+}
+#seila2{
+    position: absolute;
+    left: 34%;
+}
