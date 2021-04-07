@@ -1,0 +1,29 @@
+var acomp = 1;
+function aleatorio(){
+    var num = Math.floor(Math.random() * 10 + 1);
+    return num;
+}
+function escrevernum(){
+    var numb = document.getElementById("result").innerHTML = aleatorio();
+    return numb;
+}
+function adicionar(){
+    var elem = document.createElement("li");
+    var lista = document.getElementsByTagName('ul')[0];
+    var escrito = document.createTextNode("Sorteio #" + acomp + " " + "=" + " " + escrevernum());
+    elem.appendChild(escrito);
+    lista.appendChild(elem);
+    acomp++;
+}
+
+/* Em jQuery:
+$(document).ready(function() {
+    var aux = 1
+    $("#sorteio").click(function() {
+        var x = Math.floor((Math.random() * 10) + 1);
+
+        $("#resultado").text(x);
+        $("ul").append(`<li> Sorteio #${aux} = ${x}</li>`);
+        aux++;
+    });
+}); */
